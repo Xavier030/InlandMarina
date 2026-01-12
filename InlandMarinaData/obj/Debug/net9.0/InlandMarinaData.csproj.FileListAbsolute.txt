@@ -1,0 +1,14 @@
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.deps.json
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.runtimeconfig.json
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.dll
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.pdb
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.csproj.AssemblyReference.cache
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.GeneratedMSBuildEditorConfig.editorconfig
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.AssemblyInfoInputs.cache
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.AssemblyInfo.cs
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.csproj.CoreCompileInputs.cache
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.dll
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\refint\InlandMarinaData.dll
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.pdb
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.genruntimeconfig.cache
+E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\ref\InlandMarinaData.dll

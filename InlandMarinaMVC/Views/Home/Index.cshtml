@@ -1,0 +1,55 @@
+﻿<div class="text-center">
+    <h1 class="display-4">Welcome to Inland Marina</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    @* Carousel *@
+    <style>
+        .carousel-custom img {
+            height: 500px;
+            width: 800px;
+            object-fit: cover;
+        }
+    </style>
+
+    <div id="carouselExample" class="carousel slide carousel-custom">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/img/dock1.jpg" class="d-block w-100" alt="Dock 1">
+            </div>
+            <div class="carousel-item">
+                <img src="~/img/dock2.jpg" class="d-block w-100" alt="Dock 2">
+            </div>
+            <div class="carousel-item">
+                <img src="~/img/dock3.jpg" class="d-block w-100" alt="Dock 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    @* Main Content*@
+    <div class="main-content text-start mx-auto" style="max-width: 800px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #333;">
+        <p class="mb-3" style="font-size: 1.1rem;">
+            Welcome to <strong>Inland Marina</strong>, located on the south shore of <em>Inland Lake</em>, just a short commute from major centers in the southwest.
+        </p>
+        <p class="mb-3" style="font-size: 1.1rem;">
+            Inland Marina was established in <u>1967</u>, shortly after Inland Lake was created as a result of the Southwest Dam.
+            From its humble beginnings, it has grown to become the <span class="fst-italic">largest marina</span> on Inland Lake.
+        </p>
+        <p class="mb-3" style="font-size: 1.1rem;">
+            Due to the warm climate that extends year-round, Inland Lake has become a popular tourist destination in the southwest.
+            Boat owners from California, Arizona, Nevada, and Utah are attracted to the area.
+        </p>
+        <p class="mb-4" style="font-size: 1.1rem;">
+            Inland Marina offers <strong>90 slips</strong> ranging in size from <span class="text-primary">16 to 32 feet</span> in length.
+            Dock services include electrical and fresh water supply.
+        </p>
+        <a asp-action="Contact" class="btn btn-outline-primary btn-lg px-4">Contact Us</a>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

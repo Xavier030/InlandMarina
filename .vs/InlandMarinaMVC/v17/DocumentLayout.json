@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\visual studio\\InlandMarinaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\controllers\\slipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\controllers\\slipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinadata\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InlandMarinaContext.cs",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaContext.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\InlandMarinaContext.cs",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaContext.cs",
+              "RelativeToolTip": "InlandMarinaData\\InlandMarinaContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:13:12.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Program.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Program.cs",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Program.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:53:09.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T00:52:28.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MySlips.cshtml",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T00:52:00.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAywKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:50:26.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SlipsController.cs",
+              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:49:25.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
