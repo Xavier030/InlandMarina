@@ -1,111 +1,95 @@
-﻿@model IEnumerable<InlandMarinaData.Lease>
+﻿@model IEnumerable<InlandMarinaData.Entities.Lease>
 
 @{
-    ViewData["Title"] = "My Leased Slips";
+    ViewData["Title"] = "My Slips";
 }
 
-<div class="container-fluid py-4">
-    <div class="row mb-4">
-        <div class="col">
-            <h1 class="text-primary fw-bold">
-                <i class="bi bi-file-earmark-text me-2"></i>My Leased Slips
-            </h1>
-            <p class="text-muted">View and manage your currently leased slips.</p>
-        </div>
-    </div>
-
-    @if (TempData["SuccessMessage"] != null)
-    {
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <i class="bi bi-check-circle me-2"></i>
-            @TempData["SuccessMessage"]
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-    }
+<div class="container mt-5">
+    <h2>My Leased Slips</h2>
 
     @if (!Model.Any())
     {
-        <div class="alert alert-info text-center">
-            <i class="bi bi-info-circle display-4 mb-3"></i>
-            <h4 class="alert-heading">No Leased Slips</h4>
-            <p>You haven't leased any slips yet.</p>
-            <a asp-controller="Slips" asp-action="Index" class="btn btn-primary mt-3">
-                <i class="bi bi-search me-1"></i>Browse Available Slips
-            </a>
+        <div class="alert alert-info mt-4">
+            <h4>No active leases found</h4>
+            <p>You don''t have any active slip leases. <a asp-controller="Home" asp-action="Slips">Browse available slips</a> to make a reservation.</p>
         </div>
     }
     else
     {
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="row mt-4">
             @foreach (var lease in Model)
             {
-                var slip = lease.Slip;
-                <div class="col">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-header bg-primary bg-gradient text-white">
-                            <h5 class="mb-0">
-                                <i class="bi bi-signpost me-2"></i>
-                                Slip #@slip.ID
-                                <span class="badge bg-light text-primary ms-2">Your Lease</span>
-                            </h5>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5>Slip #@lease.Slip?.ID</h5>
                         </div>
                         <div class="card-body">
-                            <!-- Slip Info -->
-                            <div class="d-flex justify-content-between mb-3">
-                                <div>
-                                    <i class="bi bi-rulers me-1"></i>
-                                    <span class="fw-semibold">Dimensions:</span>
-                                </div>
-                                <span>@slip.Width ft × @slip.Length ft</span>
-                            </div>
+                            <p><strong>Size:</strong> @lease.Slip?.Width'' x @lease.Slip?.Length''</p>
+                            <p><strong>Dock:</strong> @lease.Slip?.Dock?.Name</p>
+                            <p><strong>Services:</strong></p>
+                            <ul>
+                                @if (lease.Slip?.Dock?.WaterService == true)
+                                {
+                                    <li>✅ Water Service</li>
+                                }
+                                @if (lease.Slip?.Dock?.ElectricalService == true)
+                                {
+                                    <li>✅ Electrical Service</li>
+                                }
+                            </ul>
 
-                            <div class="d-flex justify-content-between mb-3">
-                                <div>
-                                    <i class="bi bi-building me-1"></i>
-                                    <span class="fw-semibold">Dock:</span>
-                                </div>
-                                <span class="text-primary">@slip.Dock?.Name</span>
-                            </div>
+                            @if (lease.StartDate.HasValue)
+                            {
+                                <p><strong>Start Date:</strong> @lease.StartDate.Value.ToString("yyyy-MM-dd")</p>
+                            }
 
-                            <hr>
+                            @if (lease.EndDate.HasValue)
+                            {
+                                <p><strong>End Date:</strong> @lease.EndDate.Value.ToString("yyyy-MM-dd")</p>
+                            }
 
-                            <!-- Lease Info -->
-                            <div class="d-flex justify-content-between mb-3">
-                                <div>
-                                    <i class="bi bi-person me-1"></i>
-                                    <span class="fw-semibold">Your Customer ID:</span>
-                                </div>
-                                <span class="text-primary">@lease.CustomerID</span>
-                            </div>
-                        </div>
+                            <p>
+                                <strong>Status:</strong>
+                                <span class="badge @(lease.Active ? "bg-success" : "bg-secondary")">
+                                    @(lease.Active ? "Active" : "Inactive")
+                                </span>
+                            </p>
 
-                            <!-- Amenities -->
-                            <div class="mb-3">
-                                <h6 class="fw-semibold mb-2">
-                                    <i class="bi bi-gear me-1"></i> Amenities
-                                </h6>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info">
-                                        <i class="bi bi-droplet me-1"></i>
-                                        Water: @(slip.Dock?.WaterService == true ? "Yes" : "No")
-                                    </span>
-                                    <span class="badge bg-warning text-dark">
-                                        <i class="bi bi-lightning me-1"></i>
-                                        Electricity: @(slip.Dock?.ElectricalService == true ? "Yes" : "No")
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-footer bg-white border-top">
-                            <div class="d-grid">
-                                <a asp-controller="Slips" asp-action="Index" class="btn btn-outline-primary btn-sm">
-                                    <i class="bi bi-search me-1"></i>Browse More Slips
-                                </a>
+                            <div class="mt-3">
+                                <button class="btn btn-warning btn-sm" onclick="cancelLease(@lease.ID)">Cancel Lease</button>
                             </div>
                         </div>
                     </div>
+                </div>
             }
         </div>
     }
 </div>
+
+@section Scripts {
+    <script>
+        function cancelLease(leaseId) {
+            if (confirm(''Are you sure you want to cancel this lease?'')) {
+                fetch(`/Customer/CancelLease/${leaseId}`, {
+                    method: ''POST'',
+                    headers: {
+                        ''RequestVerificationToken'': $(''input[name="__RequestVerificationToken"]'').val(),
+                        ''Content-Type'': ''application/json''
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        alert(''Failed to cancel lease. Please try again.'');
+                    }
+                })
+                .catch(error => {
+                    console.error(''Error:'', error);
+                    alert(''An error occurred. Please try again.'');
+                });
+            }
+        }
+    </script>
+}

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<InlandMarinaData.Entities.Dock>
+
+@{
+    ViewData["Title"] = "Marina Docks";
+}
+
+<div class="container mt-5">
+    <h2>Our Docks</h2>
+
+    <div class="row mt-4">
+        @foreach (var dock in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4>@dock.Name</h4>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Services:</strong></p>
+                        <ul>
+                            @if (dock.WaterService)
+                            {
+                                <li>✅ Water Service</li>
+                            }
+                            @if (dock.ElectricalService)
+                            {
+                                <li>✅ Electrical Service</li>
+                            }
+                        </ul>
+                        <p><strong>Total Slips:</strong> @dock.Slips?.Count</p>
+                        <a href="/Home/Slips?dockId=@dock.ID" class="btn btn-outline-primary">View Slips</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

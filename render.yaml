@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: inlandmarina
+    env: dotnet
+    region: oregon
+    buildCommand: |
+      cd InlandMarinaMVC
+      dotnet restore
+      dotnet publish -c Release -o output
+    startCommand: cd output && ./InlandMarinaMVC
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__SupabaseConnection
+        sync: false

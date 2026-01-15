@@ -1,0 +1,50 @@
+﻿@model IEnumerable<InlandMarinaData.Entities.Slip>
+
+@{
+    ViewData["Title"] = "Available Slips";
+}
+
+<div class="container mt-5">
+    <h2>Available Slips</h2>
+
+    <div class="row mt-4">
+        @foreach (var slip in Model)
+        {
+            var isLeased = slip.Leases?.Any() == true;
+
+            <div class="col-md-4 mb-4">
+                <div class="card @(isLeased ? "border-warning" : "border-success")">
+                    <div class="card-header @(isLeased ? "bg-warning" : "bg-success") text-white">
+                        <h5>Slip #@slip.ID</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Size:</strong> @slip.Width' x @slip.Length'</p>
+                        <p><strong>Dock:</strong> @slip.Dock?.Name</p>
+                        <p>
+                            <strong>Status:</strong>
+                            @if (isLeased)
+                            {
+                                <span class="badge bg-warning">Leased</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Available</span>
+                            }
+                        </p>
+
+                        @if (isLeased)
+                        {
+                            <p><strong>Leased to:</strong> @slip.Leases?.First().Customer?.FirstName @slip.Leases?.First().Customer?.LastName</p>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#leaseModal-@slip.ID">
+                                Lease This Slip
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

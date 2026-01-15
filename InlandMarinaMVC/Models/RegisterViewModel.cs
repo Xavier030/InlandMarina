@@ -1,74 +1,44 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.RegularExpressions;
 
 namespace InlandMarinaMVC.Models
 {
     public class RegisterViewModel
     {
-        [Required]
-        [StringLength(30)]
-        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = "First name can only contain letters")]
-        [Display(Name = "FirstName")]
-        public string FirstName { get; set; }
+        [Required(ErrorMessage = "First name is required")]
+        [Display(Name = "First Name")]
+        [StringLength(30, ErrorMessage = "First name cannot exceed 30 characters")]
+        public string FirstName { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(30)]
-        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = "Last name can only contain letters")]
-        [Display(Name = "LastName")]
-        public string LastName { get; set; }
+        [Required(ErrorMessage = "Last name is required")]
+        [Display(Name = "Last Name")]
+        [StringLength(30, ErrorMessage = "Last name cannot exceed 30 characters")]
+        public string LastName { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(15)]
+        [Required(ErrorMessage = "Phone number is required")]
         [Display(Name = "Phone")]
-        public string Phone
-        {
-            get => _phone;
-            set => _phone = FormatPhoneNumber(value);
-        }
-        private string _phone;
+        [StringLength(15, ErrorMessage = "Phone number cannot exceed 15 characters")]
+        [Phone(ErrorMessage = "Invalid phone number")]
+        public string Phone { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(30)]
-        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = "City can only contain letters")]
+        [Required(ErrorMessage = "City is required")]
         [Display(Name = "City")]
-        public string City { get; set; }
+        [StringLength(30, ErrorMessage = "City cannot exceed 30 characters")]
+        public string City { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(50)]
-        [RegularExpression(@"^[a-z0-9]+$", ErrorMessage = "Username can only contain lowercase letters and numbers")]
+        [Required(ErrorMessage = "Username is required")]
         [Display(Name = "Username")]
-        public string Username
-        {
-            get => _username;
-            set => _username = value?.ToLower();
-        }
-        private string _username;
+        [StringLength(50, ErrorMessage = "Username cannot exceed 50 characters")]
+        public string Username { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(100)]
+        [Required(ErrorMessage = "Password is required")]
         [DataType(DataType.Password)]
-        [RegularExpression(@"^[a-z]+$", ErrorMessage = "Password can only contain lowercase letters")]
         [Display(Name = "Password")]
-        public string Password
-        {
-            get => _password;
-            set => _password = value?.ToLower();
-        }
-        private string _password;
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+        public string Password { get; set; } = string.Empty;
 
-        private string FormatPhoneNumber(string phone)
-        {
-            if (string.IsNullOrWhiteSpace(phone))
-                return phone;
-
-            var digitsOnly = Regex.Replace(phone, @"[^\d]", "");
-
-            if (digitsOnly.Length == 10)
-            {
-                return $"({digitsOnly.Substring(0, 3)}) {digitsOnly.Substring(3, 3)}-{digitsOnly.Substring(6, 4)}";
-            }
-
-            return phone; 
-        }
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirm Password")]
+        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; } = string.Empty;
     }
 }

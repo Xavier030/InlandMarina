@@ -1,4 +1,6 @@
 ﻿using InlandMarinaData;
+using InlandMarinaData.Data;
+using InlandMarinaData.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;

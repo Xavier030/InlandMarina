@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\InlandMarinaMVC.csproj": {}
+    "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj": {}
   },
   "projects": {
-    "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaData.csproj": {
+    "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaData.csproj",
+        "projectUniqueName": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj",
         "projectName": "InlandMarinaData",
-        "projectPath": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaData.csproj",
+        "projectPath": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj",
         "packagesPath": "C:\\Users\\28184\\.nuget\\packages\\",
-        "outputPath": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\obj\\",
+        "outputPath": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -66,6 +70,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -88,14 +100,14 @@
         }
       }
     },
-    "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\InlandMarinaMVC.csproj": {
+    "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
+        "projectUniqueName": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
         "projectName": "InlandMarinaMVC",
-        "projectPath": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
+        "projectPath": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
         "packagesPath": "C:\\Users\\28184\\.nuget\\packages\\",
-        "outputPath": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\obj\\",
+        "outputPath": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +129,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaData.csproj": {
-                "projectPath": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaData.csproj"
+              "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj": {
+                "projectPath": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj"
               }
             }
           }
@@ -139,15 +151,23 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.11, )"
+              "version": "[9.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -158,6 +178,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

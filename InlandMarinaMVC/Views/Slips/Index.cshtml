@@ -1,175 +1,68 @@
-﻿@model IEnumerable<InlandMarinaData.Slip>
+﻿@model IEnumerable<InlandMarinaData.Entities.Slip>
 
 @{
     ViewData["Title"] = "Available Slips";
 }
 
-<!-- narbar -->
-<div class="container-fluid py-4">
-    <div class="row mb-4">
-        <div class="col">
-            <h1 class="text-primary fw-bold">
-                <i class="bi bi-ship me-2"></i>Available Slips
-            </h1>
-            <p class="text-muted">Browse and lease available slips for your boat.</p>
-        </div>
-    </div>
+<div class="container mt-5">
+    <h2>Available Slips</h2>
 
-    <!-- search -->
-    <form method="get" class="mb-5 bg-primary-subtle rounded-3 p-4 shadow-sm text-dark">
-        <div class="row g-3">
-            <div class="col-md-6">
-                <label class="form-label fw-semibold">Search</label>
-                <div class="input-group">
-                    <input type="text"
-                           name="searchQuery"
-                           class="form-control border-primary text-dark"
-                           placeholder="Slip ID, Width, Length, or Dock..."
-                           value="@ViewData["SearchQuery"]"
-                           style="background-color: #fff; color: #000 !important;">
-                    <button class="btn btn-primary text-white" type="submit">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <label class="form-label fw-semibold">Filter by Dock</label>
-                <select name="dockId"
-                        class="form-select border-primary"
-                        asp-items="ViewBag.Docks"
-                        onchange="this.form.submit()"
-                        style="background-color: #fff; color: gray;">
-                    <option value="">-- All Docks --</option>
-                </select>
-            </div>
-            <div class="col-md-2 d-flex align-items-end">
-                <a asp-action="Index" class="btn btn-outline-dark w-100">
-                    <i class="bi bi-arrow-counterclockwise me-1"></i>Reset
-                </a>
-            </div>
-        </div>
-    </form>
-
-    @if (!string.IsNullOrEmpty(ViewData["SearchQuery"]?.ToString()))
-    {
-        <div class="alert alert-info d-flex align-items-center mb-4">
-            <div class="flex-grow-1">
-                <i class="bi bi-info-circle me-2"></i>
-                Showing results for: <strong>@ViewData["SearchQuery"]</strong>
-            </div>
-            <a asp-action="Index" class="btn btn-sm btn-info">
-                Clear Search <i class="bi bi-x-circle ms-1"></i>
-            </a>
-        </div>
-    }
-
-    <!-- Slip-->
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        @foreach (var slip in Model)
-        {
-            var isLeased = slip.Leases.Any(l => l.Active);
-            var activeLease = slip.Leases.FirstOrDefault(l => l.Active);
-
-            <div class="col">
-                <div class="card h-100 shadow-sm border-0 @(isLeased ? "border-danger" : "border-success")">
-                    <div class="card-header bg-gradient @(isLeased ? "bg-danger text-white" : "bg-success text-white")">
-                        <h5 class="mb-0">
-                            <i class="bi bi-signpost me-2"></i>
-                            Slip #@slip.ID
-                            @if (isLeased)
-                            {
-                                <span class="badge bg-light text-danger ms-2">Leased</span>
-                            }
-                            else
-                            {
-                                <span class="badge bg-light text-success ms-2">Available</span>
-                            }
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <!-- Slip Info -->
-                        <div class="d-flex justify-content-between mb-3">
-                            <div>
-                                <i class="bi bi-rulers me-1"></i>
-                                <span class="fw-semibold">Dimensions:</span>
-                            </div>
-                            <span>@slip.Width ft × @slip.Length ft</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between mb-3">
-                            <div>
-                                <i class="bi bi-building me-1"></i>
-                                <span class="fw-semibold">Dock:</span>
-                            </div>
-                            <span class="text-primary">@slip.Dock?.Name</span>
-                        </div>
-
-                        <hr>
-
-                        <!-- Lease Info (only if leased) -->
-                        @if (isLeased && activeLease != null)
-                        {
-                            <div class="alert alert-danger mb-3">
-                                <h6 class="fw-semibold mb-2">
-                                    <i class="bi bi-exclamation-triangle me-1"></i> Leased Information
-                                </h6>
-                                <div class="d-flex justify-content-between">
-                                    <span>Customer ID:</span>
-                                    <span class="fw-bold">@activeLease.CustomerID</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Leased Until:</span>
-                                    <span>@activeLease.EndDate.ToString("MMMM dd, yyyy")</span>
-                                </div>
-                            </div>
-                        }
-
-                        <!-- Amenities -->
-                        <div class="mb-3">
-                            <h6 class="fw-semibold mb-2">
-                                <i class="bi bi-gear me-1"></i> Amenities
-                            </h6>
-                            <div class="d-flex flex-wrap gap-2">
-                                <span class="badge bg-info">
-                                    <i class="bi bi-droplet me-1"></i>
-                                    Water: @(slip.Dock?.WaterService == true ? "Yes" : "No")
-                                </span>
-                                <span class="badge bg-warning text-dark">
-                                    <i class="bi bi-lightning me-1"></i>
-                                    Electricity: @(slip.Dock?.ElectricalService == true ? "Yes" : "No")
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-footer bg-white border-top">
-                        <div class="d-grid">
-                            @if (isLeased)
-                            {
-                                <button class="btn btn-outline-danger btn-sm" disabled>
-                                    <i class="bi bi-lock me-1"></i>Currently Leased
-                                </button>
-                            }
-                            else
-                            {
-                                <a asp-action="Lease" asp-route-id="@slip.ID" class="btn btn-primary btn-sm">
-                                    <i class="bi bi-key me-1"></i>Lease This Slip
-                                </a>
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
-
-    <!-- no response -->
     @if (!Model.Any())
     {
-        <div class="alert alert-warning text-center mt-5">
-            <i class="bi bi-exclamation-triangle-fill display-4 mb-3"></i>
-            <h4 class="alert-heading">No Slips Found</h4>
-            <p>Try adjusting your search criteria or clearing filters.</p>
+        <div class="alert alert-info mt-4">
+            <h4>No slips available</h4>
+            <p>All slips are currently leased. Please check back later.</p>
+        </div>
+    }
+    else
+    {
+        <div class="row mt-4">
+            @foreach (var slip in Model)
+            {
+                var isLeased = slip.Leases?.Any(l => l.Active) == true;
+
+                <div class="col-md-4 mb-4">
+                    <div class="card @(isLeased ? "border-warning" : "border-success")">
+                        <div class="card-header @(isLeased ? "bg-warning" : "bg-success") text-white">
+                            <h5>Slip #@slip.ID</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Size:</strong> @slip.Width'' x @slip.Length''</p>
+                            <p><strong>Dock:</strong> @slip.Dock?.Name</p>
+                            <p><strong>Services:</strong></p>
+                            <ul>
+                                @if (slip.Dock?.WaterService == true)
+                                {
+                                    <li>✅ Water Service</li>
+                                }
+                                @if (slip.Dock?.ElectricalService == true)
+                                {
+                                    <li>✅ Electrical Service</li>
+                                }
+                            </ul>
+                            <p>
+                                <strong>Status:</strong>
+                                @if (isLeased)
+                                {
+                                    <span class="badge bg-warning">Leased</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-success">Available</span>
+                                }
+                            </p>
+
+                            @if (!isLeased)
+                            {
+                                <form asp-controller="Customer" asp-action="LeaseSlip" method="post">
+                                    <input type="hidden" name="slipId" value="@slip.ID" />
+                                    <button type="submit" class="btn btn-primary">Lease This Slip</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
         </div>
     }
 </div>

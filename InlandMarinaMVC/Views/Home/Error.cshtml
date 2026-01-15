@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container mt-5 text-center">
+    <h1 class="display-1 text-danger">❌</h1>
+    <h2 class="text-danger">An error occurred while processing your request.</h2>
+
+    @if (Model?.ShowRequestId ?? false)
+    {
+        <p>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
+
+    <div class="mt-4">
+        <p>
+            We apologize for the inconvenience. Our team has been notified of this error.
+        </p>
+        <p>
+            Please try again later, or contact support if the problem persists.
+        </p>
+    </div>
+
+    <div class="mt-5">
+        <a href="/" class="btn btn-primary">Return to Home Page</a>
+        <a href="/Home/Contact" class="btn btn-outline-primary">Contact Support</a>
+    </div>
+</div>

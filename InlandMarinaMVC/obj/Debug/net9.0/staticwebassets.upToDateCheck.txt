@@ -1,34 +1,34 @@
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\LICENSE.txt
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\css\site.css
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation\LICENSE.md
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.min.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\js\site.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\favicon.ico
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-E:\visual studio\InlandMarinaMVC\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\LICENSE.txt
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\css\site.css
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation\LICENSE.md
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.min.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\js\site.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\favicon.ico
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\GitHub\InlandMarina\InlandMarinaMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\contact.jpg

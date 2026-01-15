@@ -12,3 +12,18 @@ E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\refint\Inland
 E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.pdb
 E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.genruntimeconfig.cache
 E:\visual studio\InlandMarinaMVC\InlandMarinaData\obj\Debug\net9.0\ref\InlandMarinaData.dll
+D:\GitHub\InlandMarina\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.deps.json
+D:\GitHub\InlandMarina\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.runtimeconfig.json
+D:\GitHub\InlandMarina\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.dll
+D:\GitHub\InlandMarina\InlandMarinaData\bin\Debug\net9.0\InlandMarinaData.pdb
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.csproj.AssemblyReference.cache
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.AssemblyInfoInputs.cache
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.AssemblyInfo.cs
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.csproj.CoreCompileInputs.cache
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.sourcelink.json
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.dll
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\refint\InlandMarinaData.dll
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.pdb
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\InlandMarinaData.genruntimeconfig.cache
+D:\GitHub\InlandMarina\InlandMarinaData\obj\Debug\net9.0\ref\InlandMarinaData.dll

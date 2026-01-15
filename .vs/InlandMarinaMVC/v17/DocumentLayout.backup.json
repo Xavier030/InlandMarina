@@ -1,30 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\visual studio\\InlandMarinaMVC\\",
+  "WorkspaceRootPath": "D:\\GitHub\\InlandMarina\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\controllers\\slipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\controllers\\slipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\controllers\\slipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\inlandmarinamvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\inlandmarinamvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\slips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\customer\\myslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\data\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\data\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\entities\\lease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\entities\\lease.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\entities\\slip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\entities\\slip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\entities\\dock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\entities\\dock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\inlandmarinadata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\inlandmarinadata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinadata\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\inlandmarinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\data\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\data\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|e:\\visual studio\\inlandmarinamvc\\inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\docks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\docks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|d:\\github\\inlandmarina\\inlandmarinamvc\\views\\home\\slips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC4D6E7-3E2F-42FA-BD09-F41429EADD0C}|InlandMarinaMVC\\InlandMarinaMVC.csproj|solutionrelative:inlandmarinamvc\\views\\home\\slips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\slipdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\slipdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\migrations\\inlandmarinacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\migrations\\inlandmarinacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\migrations\\20251209003703_usernamepasswordadded.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\migrations\\20251209003703_usernamepasswordadded.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\migrations\\20251208170253_addleaseentity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\migrations\\20251208170253_addleaseentity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\migrations\\20251204174826_addcustomercredentials.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\migrations\\20251204174826_addcustomercredentials.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\migrations\\20251203233225_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\migrations\\20251203233225_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\leasedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\leasedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\dockdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\dockdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\customerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|d:\\github\\inlandmarina\\inlandmarinadata\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E16CC7F0-BBC9-4690-84C1-7323A961956E}|InlandMarinaData\\InlandMarinaData.csproj|solutionrelative:inlandmarinadata\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +158,487 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InlandMarinaContext.cs",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaContext.cs",
-              "RelativeDocumentMoniker": "InlandMarinaData\\InlandMarinaContext.cs",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaData\\InlandMarinaContext.cs",
-              "RelativeToolTip": "InlandMarinaData\\InlandMarinaContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwB8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:13:12.42Z",
-              "IsPinned": true,
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:14:41.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Program.cs",
-              "RelativeDocumentMoniker": "InlandMarinaMVC\\Program.cs",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Program.cs",
-              "RelativeToolTip": "InlandMarinaMVC\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T00:53:09.574Z",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:14:02.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:03:46.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Error.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Error.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Error.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:02:20.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InlandMarinaData",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj",
+              "RelativeDocumentMoniker": "InlandMarinaData\\InlandMarinaData.csproj",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\InlandMarinaData.csproj",
+              "RelativeToolTip": "InlandMarinaData\\InlandMarinaData.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-15T15:44:02.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Repositories\\Repository.cs",
+              "RelativeToolTip": "InlandMarinaData\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:07:11.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
               "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
               "RelativeToolTip": "InlandMarinaMVC\\Views\\Slips\\Index.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHkAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-09T00:52:28.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T16:24:21.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InlandMarinaContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Data\\InlandMarinaContext.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Data\\InlandMarinaContext.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Data\\InlandMarinaContext.cs",
+              "RelativeToolTip": "InlandMarinaData\\Data\\InlandMarinaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:46:28.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SlipsController.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwC0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:49:25.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\appsettings.json",
+              "RelativeToolTip": "InlandMarinaMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T15:51:48.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:53:48.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lease.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Lease.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Entities\\Lease.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Lease.cs",
+              "RelativeToolTip": "InlandMarinaData\\Entities\\Lease.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:45:30.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Slip.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Slip.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Entities\\Slip.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Slip.cs",
+              "RelativeToolTip": "InlandMarinaData\\Entities\\Slip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:45:15.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Program.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Program.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Program.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:53:09.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dock.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Dock.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Entities\\Dock.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Dock.cs",
+              "RelativeToolTip": "InlandMarinaData\\Entities\\Dock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:45:00.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InlandMarinaMVC",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\InlandMarinaMVC.csproj",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\InlandMarinaMVC.csproj",
+              "RelativeToolTip": "InlandMarinaMVC\\InlandMarinaMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-15T16:34:53.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MySlips.cshtml",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
               "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
               "RelativeToolTip": "InlandMarinaMVC\\Views\\Customer\\MySlips.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwG0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-09T00:52:00.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Entities\\Customer.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Entities\\Customer.cs",
+              "RelativeToolTip": "InlandMarinaData\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:44:30.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Customer\\Register.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Customer\\Register.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Customer\\Register.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Customer\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T16:31:56.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Models\\ProfileViewModel.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Models\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:30:42.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:30:26.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "InlandMarinaMVC\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:30:14.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\CustomerController.cs",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "InlandMarinaMVC\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAywKAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T00:50:26.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SlipsController.cs",
-              "DocumentMoniker": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
-              "RelativeDocumentMoniker": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
-              "ToolTip": "E:\\visual studio\\InlandMarinaMVC\\InlandMarinaMVC\\Controllers\\SlipsController.cs",
-              "RelativeToolTip": "InlandMarinaMVC\\Controllers\\SlipsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "CustomerDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Data\\CustomerDB.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Data\\CustomerDB.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Data\\CustomerDB.cs",
+              "RelativeToolTip": "InlandMarinaData\\Data\\CustomerDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T00:49:25.836Z",
+              "WhenOpened": "2026-01-15T16:28:32.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Docks.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Docks.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Docks.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Docks.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Docks.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T16:24:06.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Slips.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Slips.cshtml",
+              "RelativeDocumentMoniker": "InlandMarinaMVC\\Views\\Home\\Slips.cshtml",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaMVC\\Views\\Home\\Slips.cshtml",
+              "RelativeToolTip": "InlandMarinaMVC\\Views\\Home\\Slips.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T16:23:13.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SlipDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\SlipDB.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\SlipDB.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\SlipDB.cs",
+              "RelativeToolTip": "InlandMarinaData\\SlipDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:55.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InlandMarinaContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\InlandMarinaContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Migrations\\InlandMarinaContextModelSnapshot.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\InlandMarinaContextModelSnapshot.cs",
+              "RelativeToolTip": "InlandMarinaData\\Migrations\\InlandMarinaContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:43.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20251209003703_UsernamePasswordAdded.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251209003703_UsernamePasswordAdded.Designer.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Migrations\\20251209003703_UsernamePasswordAdded.Designer.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251209003703_UsernamePasswordAdded.Designer.cs",
+              "RelativeToolTip": "InlandMarinaData\\Migrations\\20251209003703_UsernamePasswordAdded.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:37.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20251208170253_AddLeaseEntity.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251208170253_AddLeaseEntity.Designer.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Migrations\\20251208170253_AddLeaseEntity.Designer.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251208170253_AddLeaseEntity.Designer.cs",
+              "RelativeToolTip": "InlandMarinaData\\Migrations\\20251208170253_AddLeaseEntity.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20251204174826_AddCustomerCredentials.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251204174826_AddCustomerCredentials.Designer.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Migrations\\20251204174826_AddCustomerCredentials.Designer.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251204174826_AddCustomerCredentials.Designer.cs",
+              "RelativeToolTip": "InlandMarinaData\\Migrations\\20251204174826_AddCustomerCredentials.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:23.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251203233225_Initial.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251203233225_Initial.Designer.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Migrations\\20251203233225_Initial.Designer.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Migrations\\20251203233225_Initial.Designer.cs",
+              "RelativeToolTip": "InlandMarinaData\\Migrations\\20251203233225_Initial.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:14.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LeaseDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\LeaseDB.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\LeaseDB.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\LeaseDB.cs",
+              "RelativeToolTip": "InlandMarinaData\\LeaseDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:17:04.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DockDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\DockDB.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\DockDB.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\DockDB.cs",
+              "RelativeToolTip": "InlandMarinaData\\DockDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:16:53.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomerDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\CustomerDB.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\CustomerDB.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\CustomerDB.cs",
+              "RelativeToolTip": "InlandMarinaData\\CustomerDB.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:16:26.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "InlandMarinaData\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\GitHub\\InlandMarina\\InlandMarinaData\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "InlandMarinaData\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T15:47:19.755Z",
               "EditorCaption": ""
             }
           ]
